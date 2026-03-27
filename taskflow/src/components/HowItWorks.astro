@@ -1,0 +1,100 @@
+---
+---
+<section class="how" id="how">
+  <div class="container">
+    <h2>Como funciona o Taskflow?</h2>
+    <ol class="steps">
+      <li>
+        <span class="num">1</span>
+        <div>
+          <h3>Crie seu espaço</h3>
+          <p>Monte o ambiente do seu time em minutos, sem complicação.</p>
+        </div>
+      </li>
+      <li>
+        <span class="num">2</span>
+        <div>
+          <h3>Adicione projetos e tarefas</h3>
+          <p>Organize tudo em quadros, listas ou calendário, do seu jeito.</p>
+        </div>
+      </li>
+      <li>
+        <span class="num">3</span>
+        <div>
+          <h3>Colabore e acompanhe</h3>
+          <p>Converse, mencione colegas e acompanhe o progresso em tempo real.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.how {
+  background: var(--color-bg);
+  padding: 5rem 0 4rem 0;
+}
+.how .container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.how h2 {
+  color: var(--color-primary);
+  font-size: 2.1rem;
+  margin-bottom: 2.2rem;
+  font-weight: 800;
+}
+.steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
+}
+.steps li {
+  background: var(--color-light);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  min-width: 220px;
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ececec;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.steps li:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 8px 32px 0 rgba(124, 58, 237, 0.13);
+}
+.num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-secondary);
+  color: var(--color-light);
+  font-weight: 700;
+  font-size: 1.3rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-bottom: 1.1rem;
+  box-shadow: 0 2px 8px 0 rgba(6, 182, 212, 0.13);
+}
+.steps h3 {
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+.steps p {
+  color: var(--color-dark);
+  font-size: 1rem;
+  opacity: 0.93;
+}
+</style>

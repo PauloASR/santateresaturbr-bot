@@ -1,0 +1,47 @@
+---
+---
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taskflow – Seu time. Uma visão. Zero caos.</title>
+    <meta name="description" content="Taskflow centraliza projetos, prazos e comunicação do seu time em um único lugar, para que nada se perca." />
+    <link rel="icon" href="/favicon.ico" />
+    <style>
+      :root {
+        --color-primary: #7C3AED;
+        --color-secondary: #06B6D4;
+        --color-bg: #f8fafc;
+        --color-text: #18181b;
+        --color-dark: #18181b;
+        --color-light: #fff;
+        --radius: 1.2rem;
+        --shadow: 0 4px 32px 0 rgba(124, 58, 237, 0.08);
+        --font-main: 'Inter', Arial, sans-serif;
+      }
+      html {
+        font-family: var(--font-main);
+        background: var(--color-bg);
+        color: var(--color-text);
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background: var(--color-bg);
+      }
+      a {
+        color: var(--color-primary);
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      a:hover {
+        color: var(--color-secondary);
+      }
+    </style>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
