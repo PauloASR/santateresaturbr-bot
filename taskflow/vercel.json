@@ -1,6 +1,0 @@
-{
-  "framework": "astro",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
